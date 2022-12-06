@@ -26,6 +26,7 @@ li:hover {
 a {
     color: white;
     text-decoration: none;
+    padding: 4vh 0vw;
 }
 
 h2 {
@@ -36,24 +37,39 @@ h2 {
 
 h5 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(255, 123, 0);
+    font-size: medium;
+    color:rgb(83, 83, 83);
     text-align: center;
-}
-
-td {
-    border:1px solid black;
+    padding: 1vh 1vw;
 }
 
 p {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:rgb(48, 39, 34);
+    color:rgb(0, 0, 0);
+    padding: 1vh 1vw;
+}
+
+input {
+    margin: 0vh 0.3vw;
+    padding: 1vh 1vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size:small;
+    background-color: rgb(121, 121, 121);
+    border: 1px solid rgb(3, 3, 3);
+    border-radius: 5px;
+}
+
+tr {
+    border-bottom: 1px solid black;
 }
 
 /*Selectores de ID*/
 
 #t1 {
     margin: auto;
+    border: 1px solid black;
 }
 
 
@@ -61,7 +77,11 @@ p {
 
 .div1 {
     text-align: center;
-    margin-top: 15vh;
+    margin-top: 3vh;
 }
 
+.tdboton {
+    padding: 0vh 0.7vw;
+}
 /*Selectores Anidados*/
+

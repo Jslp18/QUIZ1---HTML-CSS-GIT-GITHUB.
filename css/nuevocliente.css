@@ -26,6 +26,7 @@ li:hover {
 a {
     color: white;
     text-decoration: none;
+    padding: 4vh 0vw;
 }
 
 h2 {
@@ -40,7 +41,6 @@ input {
     padding: 1vh 1vw;
 }
 
-
 /*Selectores de ID*/
 
 
@@ -50,29 +50,16 @@ input {
 
 .div1 {
     text-align: center;
-    margin-top: 15vh;
+    margin-top: 3vh;
 }
 
 
 .div2 {
-    margin: 0vh 32vw;
+    margin: 3vh 32vw;
     border-style: solid;
     border-width: 0.2vw;
     border-color: rgb(83, 83, 83);
     text-align: center;
-}
-
-
-.div2 table td{
-    text-align: left;
-    padding-top: 2vh;
-    padding-bottom: 1vh;
-}
-
-.div2 label{
-    margin: 0vh 2vw;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(83, 83, 83);
 }
 
 .boton {
@@ -87,4 +74,17 @@ input {
     border-radius: 5px;
     
 }
+
 /*Selectores Anidados*/
+
+.div2 table td{
+    text-align: left;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+}
+
+.div2 label{
+    margin: 0vh 2vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(83, 83, 83);
+}
