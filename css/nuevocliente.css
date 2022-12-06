@@ -1,0 +1,63 @@
+/*Selector Universal*/
+
+*{
+    margin: 0;
+} 
+
+/*Selector Etiquetas e Hijos*/
+
+ul {
+    background-color: rgb(83, 83, 83);
+    text-align: center;
+    padding: 10px;
+}
+
+li {
+    margin: 0px;
+    padding: 10px;
+    display: inline-block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+a {
+    color: white;
+}
+
+h2 {
+    padding: 5vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(60, 40, 170);
+}
+
+
+/*Selectores de ID*/
+
+
+
+
+/*Selectores de Clases*/
+
+.div1 {
+    text-align: center;
+    margin-top: 20vh;
+}
+
+
+.div2 {    
+    text-align: center;
+    border-style: solid;
+}
+
+.div2 label{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(83, 83, 83);
+}
+
+.div2 input {
+    margin-top: 2vh;
+}
+/*Selectores Anidados*/
