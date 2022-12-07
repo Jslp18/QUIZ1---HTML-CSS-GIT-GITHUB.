@@ -63,9 +63,10 @@ input {
 }
 
 .boton {
+    
     margin-top: 3vh;
     margin-bottom: 1vh;
-    padding: 1vh 3vw;
+    padding: 1.5vh 3vw;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     font-size:small;
@@ -84,7 +85,7 @@ input {
 }
 
 .div2 label{
-    margin: 0vh 2vw;
+    margin: 0vh 2.5vw;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(83, 83, 83);
 }

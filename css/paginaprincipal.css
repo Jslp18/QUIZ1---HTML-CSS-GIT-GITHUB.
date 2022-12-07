@@ -14,7 +14,7 @@ ul {
 
 li {
     margin: 0px;
-    padding: 4vh 2vw;
+    padding: 4vh 0vw;
     display: inline-block;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -26,11 +26,11 @@ li:hover {
 a {
     color: white;
     text-decoration: none;
-    padding: 4vh 0vw;
+    padding: 4vh 2vw;
 }
 
 h2 {
-    padding: 5vh;
+    padding: 5vh 5vw 8vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(60, 40, 170);
 }
@@ -51,7 +51,7 @@ p {
 }
 
 input {
-    margin: 0vh 0.3vw;
+    margin: 0.5vh 0vw;
     padding: 1vh 1vw;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
@@ -61,17 +61,14 @@ input {
     border-radius: 5px;
 }
 
-tr {
-    border-bottom: 1px solid black;
-}
-
 /*Selectores de ID*/
 
 #t1 {
     margin: auto;
-    border: 1px solid black;
+    border-style: solid;
+    border-width: 0.2vw;
+    border-color: rgb(83, 83, 83);
 }
-
 
 /*Selectores de Clases*/
 
@@ -80,8 +77,6 @@ tr {
     margin-top: 3vh;
 }
 
-.tdboton {
-    padding: 0vh 0.7vw;
-}
 /*Selectores Anidados*/
+
 
