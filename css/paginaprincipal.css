@@ -7,7 +7,7 @@
 /*Selector Etiquetas e Hijos*/
 
 ul {
-    background-color: rgb(99, 99, 99);
+    background-color: #7C8DA5;
     text-align: center;
     padding: 0px;
 }
@@ -20,25 +20,19 @@ li {
 }
 
 li:hover {
-    background-color: rgb(65, 65, 65);
-}
-
-a {
-    color: white;
-    text-decoration: none;
-    padding: 4vh 2vw;
+    background-color: #475B74;
 }
 
 h2 {
     padding: 5vh 5vw 8vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(60, 40, 170);
+    color: #475B74;
 }
 
 h5 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: medium;
-    color:rgb(83, 83, 83);
+    color: #1D2538;
     text-align: center;
     padding: 1vh 1vw;
 }
@@ -50,24 +44,11 @@ p {
     padding: 1vh 1vw;
 }
 
-input {
-    margin: 0.5vh 0vw;
-    padding: 1vh 1vw;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    font-size:small;
-    background-color: rgb(121, 121, 121);
-    border: 1px solid rgb(3, 3, 3);
-    border-radius: 5px;
-}
-
 /*Selectores de ID*/
 
 #t1 {
     margin: auto;
-    border-style: solid;
-    border-width: 0.2vw;
-    border-color: rgb(83, 83, 83);
+    border-collapse: collapse;
 }
 
 /*Selectores de Clases*/
@@ -77,6 +58,41 @@ input {
     margin-top: 3vh;
 }
 
+.link {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+    padding: 4vh 2vw;
+}
+
+.editar {
+    text-decoration: none;
+    margin: 0vh 0.5vw;
+    padding: 1vh 1vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    font-size: medium;
+    background-color: #7C8DA5;
+    border: 2px solid #1D2538;
+    border-radius: 5px;
+}
+
+.editar:hover {
+    background-color: #475B74;
+}
+
+.fila1 {
+    background-color: #E0E1DC;
+}
+
+
 /*Selectores Anidados*/
 
+#t1 tr {
+    border: 2px solid #1D2538;
+}
 
+#t1 td {
+    padding: 1vh 1vw;   
+}

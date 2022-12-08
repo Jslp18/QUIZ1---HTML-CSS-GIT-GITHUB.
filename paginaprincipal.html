@@ -7,15 +7,15 @@
     <title>Pagina principal</title>
     <link rel="stylesheet" type="text/css" href="css/paginaprincipal.css" media="screen"/>
     <ul>
-        <li><a href = "paginaprincipal.html">INICIO</a></li>
-        <li><a href = "nuevocliente.html">NUEVO CLIENTE</a></li>
+        <li><a class="link" href = "paginaprincipal.html">INICIO</a></li>
+        <li><a class="link" href = "nuevocliente.html">NUEVO CLIENTE</a></li>
     </ul>
 </head>
 <body>
     <div class="div1">
         <h2>LISTA CLIENTES</h1>
         <table id="t1">
-            <tr>
+            <tr class="fila1">
                 <td><h5>DOCUMENTO</h5></td>
                 <td><h5>NOMBRES</h5></td>
                 <td><h5>APELLIDOS</h5></td>
@@ -26,10 +26,8 @@
                 <td><p>FERNANDO</p></td>
                 <td><p>REY</p></td>
                 <td class="tdboton">
-                    <a class="cliente" href = "clientedetalle.html">
-                        <input type="button" value="DETALLES">
-                    </a>
-                    <input type="button" value="ELIMINAR">
+                    <a id="detalle" class="editar" href = "clientedetalle.html">DETALLES</a>
+                    <a class="editar">ELIMINAR</a>
                 </td>
             </tr>
         </table>
