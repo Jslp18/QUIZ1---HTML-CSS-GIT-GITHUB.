@@ -23,6 +23,14 @@ li:hover {
     background-color: #475B74;
 }
 
+a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+    padding: 4vh 2vw;
+}
+
 h2 {
     padding: 5vh 5vw 8vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
